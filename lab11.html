@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Feedback Form</h2>
+<form id="frmreservation">
+    <table>
+        <tr>
+            <td><label for="txtName">Name:</label></td>
+            <td><input type="text" id="txtName" onfocus="showStyle(this);" onblur="hideStyle(this);" onselect="setFontStyle(this);"></td>
+        </tr>
+        <tr>
+            <td><label for="txtEmail">E-Mail:</label></td>
+            <td><input type="text" id="txtEmail" onfocus="showStyle(this);" onblur="hideStyle(this);" onselect="setFontStyle(this)"></td>
+        </tr>
+        <tr>
+            <td><label for="txtComment">Comment:</label></td>
+            <td><textarea id="txtComment" cols="15" rows="3" onfocus="showStyle(this);" onblur="hideStyle(this);" onselect="setFontStyle(this);"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="btnSubmit" value="Submit"></td>
+            <td><input type="reset" id="btnReset"></td>
+        </tr>
+    </table>
+</form>
+<script src="mmwf.js"></script>
+</body>
+</html>
